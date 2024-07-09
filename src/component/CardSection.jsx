@@ -95,7 +95,7 @@ function CardSection() {
               </div>
             </div>
             {/* vertial ber */}
-            <div style={{ width: '1px', height: '4vw', backgroundColor: 'black' }}></div>
+            <div style={{ width: '.1px', height: '4vw', backgroundColor: ' rgb(179, 177, 177)' }}></div>
 
             {/* 2nd progress */}
             <div className={`${style.circle2}`}  >
@@ -133,8 +133,8 @@ function CardSection() {
 
 </div>
 </div>
-
-<div style={{height:'1px',width:'100%',backgroundColor:'black'}}></div>
+<hr />
+{/* <div style={{height:'.1px',width:'100%',backgroundColor:'black'}}></div> */}
 <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',marginTop:'1vw'}}>
 <div style={{display:'flex',alignItems:'center',}}>
 <IoIosSend style={{width:'1.2vw',height:'1.3vw'

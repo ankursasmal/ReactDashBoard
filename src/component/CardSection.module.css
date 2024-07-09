@@ -3,7 +3,7 @@
     padding: 1.3vw;
     display: flex;
     flex-direction: column;
-    background-color: #d6d6d4;
+    background-color: #e6e6e7;
     border-radius: 1vw;
     margin: .1px;
     height: 27vw;
@@ -179,7 +179,7 @@
 }
 
 .progress_header {
-    border: 1px solid black;
+    border: .1px solid rgb(176, 173, 173);
     border-radius: 1vw;
     border-radius: 10px;
     width: 100%;
@@ -190,8 +190,8 @@
 
 .horizental_line {
     width: 100%;
-    height: 1px;
-    background-color: black;
+    height: .1px;
+    background-color: rgb(179, 177, 177);
     margin-top: .5vw
 }
 

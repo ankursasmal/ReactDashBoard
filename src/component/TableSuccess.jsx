@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { FiLoader } from "react-icons/fi";
 
 import '../App.css'
-function TableRow() {
+function TableSuccess() {
     let inputBg = useRef('');
 
     return (
@@ -16,11 +16,11 @@ function TableRow() {
                 <td className="table_row">Money Transfer</td>
                 <td className="table_row">Rp123</td>
 
-                <td className="table_row" > <div style={{display:'flex',alignItems:'center' }}><FiLoader style={{with:'.8vw',height:'1vw'}} /><a style={{width:'1vw',marginLeft:'2px'}}>Progress</a></div> </td>
+                <td className="table_row" > <div style={{display:'flex',alignItems:'center' }}><img src='https://cdn.icon-icons.com/icons2/1506/PNG/512/emblemdefault_103756.png' style={{with:'.8vw',height:'1vw'}} /><a style={{width:'1vw',marginLeft:'2px'}}>Complete</a></div> </td>
 
             </tr>
         </>
     )
 }
 
-export default TableRow
+export default TableSuccess

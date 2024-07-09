@@ -6,6 +6,7 @@ import style from './TableSection.module.css'
 import TableRow from './TableRow';
 import { LuListFilter } from "react-icons/lu";
 import { IoReorderThreeOutline } from "react-icons/io5";
+import TableSuccess from './TableSuccess';
 
 function TableSection() {
   let inputBg = useRef('');
@@ -76,24 +77,34 @@ function TableSection() {
         <tbody>
           <TableRow />
           <TableRow />
+          <TableSuccess/>
+
+          <TableRow />
+
+<TableSuccess/>
           <TableRow />
           <TableRow />
+          <TableSuccess/>
+
           <TableRow />
           <TableRow />
+          <TableSuccess/>
+          <TableSuccess/>
+          <TableSuccess/>
+
+          <TableRow />
+          <TableSuccess/>
+
+          <TableRow />
+          <TableSuccess/>
+          <TableSuccess/>
+          <TableSuccess/>
+          <TableSuccess/>
+v
           <TableRow />
           <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
-          <TableRow />
+          <TableSuccess/>
+
 
         </tbody>
       </table>

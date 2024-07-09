@@ -58,11 +58,11 @@
   margin-top: 1vw;
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid black;
-  border-radius: 1vw !important;
-  position: static;
-  top: 0px;
-  left: 0px;
+  border: .1px solid rgb(146, 144, 144);
+  border-radius: 5px !important;
+   
+  padding: 4px;
+  
 }
 
 #table1 th {
