@@ -105,7 +105,7 @@
 
 .Main_grid {
     display: grid;
-    grid-template-columns: 37% 52%;
+    grid-template-columns: 37% 62%;
     gap: 10px;
     margin-top: 2vw
 }

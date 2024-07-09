@@ -15,7 +15,7 @@
   border-radius: 50%;
   background:
     radial-gradient(closest-side, white 71%, transparent 70% 100%),
-    conic-gradient(rgb(244, 245, 247) 25%, rgb(91, 119, 185) 0);
+    conic-gradient(rgb(244, 245, 247) 25%, rgb(226, 230, 5) 0);
 }
 
 .ber1 {

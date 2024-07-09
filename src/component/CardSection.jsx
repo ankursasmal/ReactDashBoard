@@ -29,7 +29,8 @@ function CardSection() {
         <a className={`${style.kley}`}   >Kley card</a>
         <div className={`${style.Edit}`}   >
           <a className={`${style.card_no}`}   >100-1244-1255-325</a>
-          <MdOutlineRemoveRedEye style={{ fontSize: '1.7vw' }} />
+          <MdOutlineRemoveRedEye style={{ fontSize: '1.7vw',    color: 'white'
+ }} />
         </div>
 
         {/* expire date part*/}
@@ -167,6 +168,47 @@ function CardSection() {
 <a style={{fontSize:'1vw'}}>-RP88222</a>
 <a>Investment</a>
  </div>
+
+   </div>
+   <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',marginTop:'1.2vw'}}>
+   <div style={{display:'flex',alignItems:'center'}}> 
+
+<div style={{display:'flex',alignItems:'center',justifyContent:'center',width:'2.5vw',height:'2.5vw',backgroundColor:'blue',borderRadius:'50%'}}>
+    <a style={{fontSize:'1vw',color:"white"}}>CC</a> 
+
+    </div>
+ <div style={{display:'flex',flexDirection:'column',alignItems:'self-start',marginLeft:'.5vw'}}>
+<a style={{fontSize:'1vw'}}>Names</a>
+<a>03/04/20</a>
+ </div>
+
+   </div>
+
+   <div style={{display:'flex',flexDirection:'column',alignItems:'self-start'}}>
+<a style={{fontSize:'1vw'}}>-RP88222</a>
+<a>Investment</a>
+ </div>
+ 
+   </div>
+   <div style={{display:'flex',alignItems:'center',justifyContent:'space-between',marginTop:'1.2vw'}}>
+   <div style={{display:'flex',alignItems:'center'}}> 
+
+<div style={{display:'flex',alignItems:'center',justifyContent:'center',width:'2.5vw',height:'2.5vw',backgroundColor:'blue',borderRadius:'50%'}}>
+    <a style={{fontSize:'1vw',color:"white"}}>CC</a> 
+
+    </div>
+ <div style={{display:'flex',flexDirection:'column',alignItems:'self-start',marginLeft:'.5vw'}}>
+<a style={{fontSize:'1vw'}}>Names</a>
+<a>03/04/20</a>
+ </div>
+
+   </div>
+
+   <div style={{display:'flex',flexDirection:'column',alignItems:'self-start'}}>
+<a style={{fontSize:'1vw'}}>-RP88222</a>
+<a>Investment</a>
+ </div>
+ 
    </div>
    </div>
      </div>

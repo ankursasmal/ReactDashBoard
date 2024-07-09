@@ -47,12 +47,14 @@
     padding: 1.3vw;
     display: flex;
     flex-direction: column;
-    background-image: url('https://www.carecredit.com/sites/cc/image/mastercard-hero-bg-dsk.svg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR_a9UKOATg-w5gaLwT36Hipifx0J8tC_9Mw&s');
     border-radius: 1vw;
 
 }
 
 .kley {
+    color: white;
+
     font-size: 1.4vw;
     font-weight: 700;
 }
@@ -64,40 +66,53 @@
 }
 
 .card_no {
+    color: white;
+
     font-size: 1.4vw;
     font-weight: 500;
     padding-right: 1vw
 }
 
 .cardname {
+    color: white;
+
     display: flex;
     align-items: center;
     justify-content: space-between
 }
 
 .card_namecol {
+
     display: flex;
     flex-direction: column;
 }
 
 .cvv {
+    color: white;
+
     display: flex;
     align-items: center;
     margin-top: 3px
 }
 
 .exp {
+    color: white;
+
     display: flex;
     align-items: center
 }
 
 .card_cvc {
+    color: white;
+
     display: flex;
     align-items: center;
     padding-left: 1.7vw
 }
 
 .card_cvc_no {
+    color: white;
+
     font-size: 1.1vw;
     padding-left: .5vw
 }
@@ -113,7 +128,7 @@
     width: 2.2vw;
     height: 2.2vw;
     border-radius: 50%;
-    background-color: blue;
+    background-color: rgb(220, 240, 89);
     margin-left: -.7vw;
     opacity: 0.5
 }
