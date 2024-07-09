@@ -1,25 +1,24 @@
- import React, { useRef } from 'react'
- import './App.css'
- import DashBoard from './component/DashBoard';
+import React, { useRef } from 'react'
+import './App.css'
+import DashBoard from './component/DashBoard';
 import MainPage from './component/MainPage';
- 
- function App() {
+
+function App() {
    return (
-     <div className='grid-container'>
-      <div className='dashBoard'  >    
-        <DashBoard/>
-</div>
-       
-       <div className='Mainpagecss'  >
-    <MainPage/>
+      <div className='grid-container'>
+         <div className='dashBoard'  >
+            <DashBoard />
+         </div>
 
- </div>
-       </div>
+         <div className='Mainpagecss'  >
+            <MainPage />
 
- 
+         </div>
+      </div>
 
-    )
- }
- 
- export default App
- 
+
+
+   )
+}
+
+export default App

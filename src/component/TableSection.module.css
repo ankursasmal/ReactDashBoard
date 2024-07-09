@@ -1,19 +1,27 @@
-.transition{
-     width: 95%  ; margin-left: 20px  ;margin-top: 1.5vw  
+.transition {
+      width: 95%;
+      margin-left: 20px;
+      margin-top: 1.5vw
 }
-.transition_heading{
-     font-size: 1.9vw  ;font-weight: 600  ;padding-left: .7vw  
-}
-.table_headDiv{
-      display:  flex  ; align-items:  center  ;  justify-content:  space-between   
-}
-.table_head_name{
-      font-size:  1.5vw  ; font-weight:  600   
-}
-.logo{
-      width:  1.6vw  ; height:  1.5vw   
-}
- 
 
+.transition_heading {
+      font-size: 1.9vw;
+      font-weight: 600;
+      padding-left: .7vw
+}
 
+.table_headDiv {
+      display: flex;
+      align-items: center;
+      justify-content: space-between
+}
 
+.table_head_name {
+      font-size: 1.5vw;
+      font-weight: 600
+}
+
+.logo {
+      width: 1.6vw;
+      height: 1.5vw
+}

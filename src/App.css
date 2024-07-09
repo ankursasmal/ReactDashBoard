@@ -1,29 +1,31 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-.grid-container{
-  display:grid;
-grid-template-columns:22% 76%;
-gap:10px;
+.grid-container {
+  display: grid;
+  grid-template-columns: 22% 76%;
+  gap: 10px;
 
 }
-.ber{
+
+.ber {
   width: 4vw;
   height: 4vw;
   border-radius: 50%;
-  background: 
+  background:
     radial-gradient(closest-side, white 79%, transparent 80% 100%),
-    conic-gradient(rgb(244, 245, 247) 25%, rgb(91, 119, 185) 0);    
+    conic-gradient(rgb(244, 245, 247) 25%, rgb(91, 119, 185) 0);
 }
-.ber1{
+
+.ber1 {
   width: 4vw;
   height: 4vw;
   border-radius: 50%;
-  background: 
+  background:
     radial-gradient(closest-side, white 79%, transparent 80% 100%),
-    conic-gradient(rgb(246, 240, 242) 45%, rgb(212, 143, 155) 0); 
+    conic-gradient(rgb(246, 240, 242) 45%, rgb(212, 143, 155) 0);
 }
 
 .option-input {
@@ -50,7 +52,7 @@ gap:10px;
   position: relative;
   z-index: 1000;
 }
- 
+
 
 /* table code */
 #table1 {
@@ -60,12 +62,14 @@ gap:10px;
   border: 1px solid black;
   border-radius: 1vw !important;
 }
-#table1 th{
+
+#table1 th {
   background-color: #cbd1d8;
 }
 
-#table1 td, #table1 th {
-   padding: 8px;
+#table1 td,
+#table1 th {
+  padding: 8px;
 }
 
 #table1 tr:nth-child(even) {
@@ -80,14 +84,23 @@ gap:10px;
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-   color: black;
+  color: black;
 }
-.table_row{
-  font-size:  1.3vw   
+
+.table_row {
+  font-size: 1.3vw
 }
-.dashBoard{
-   height: 100vw ;width: 100% ;padding: 20px ;margin-right: 2vw 
+
+.dashBoard {
+  height: 100vw;
+  width: 100%;
+  padding: 20px;
+  margin-right: 2vw
 }
-.Mainpagecss{
-   height:100vw;width:100%;padding:20px;margin-left:30px
+
+.Mainpagecss {
+  height: 100vw;
+  width: 100%;
+  padding: 20px;
+  margin-left: 30px
 }
