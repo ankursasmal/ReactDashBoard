@@ -82,10 +82,10 @@ function DashBoard() {
         <SlideOption name=' Foreign exchange' icons={RiExchangeDollarLine} />
         <SlideOption name='Multi currency account' icons={MdPeopleOutline} />
 
-<div style={{position:'fixed',bottom:'1px'}}>
+<div style={{position:'absolute',bottom:'2.1vw'}}>
 <SlideOption name='Settings' icons={MdOutlineSettings} />
 <SlideOption name='Help center' icons={VscStopCircle} />
-<div style={{padding:'.5vw',backgroundColor:'black',borderRadius:'.5vw',marginTop:'4px',marginBottom:'.5vw',width:'84%'}}>
+<div style={{padding:'.5vw',backgroundColor:'black',borderRadius:'.5vw',marginTop:'4px',marginBottom:'1vw',width:'84%'}}>
 <div style={{display:'flex'}}>
 <div style={{alignSelf:'self-start'}}>
   <div className={`${style.logo}`}> 
