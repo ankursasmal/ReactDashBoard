@@ -1,37 +1,58 @@
 .MainPgae {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    width: 90%;
 }
 
 .mainHeading {
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-top: 1.3vw
+    margin-top: 1vw
 }
 
 .Transactions {
 
-    font-size: 2.2vw;
+    font-size: 1.6vw;
     font-weight: 700
 }
 
 .review {
-    font-size: 1.8vw;
-    font-weight: 500;
+    font-size: 1vw;
+    font-weight: 600;
     margin-top: .7vw
 }
 
 .route_option {
     display: flex;
     align-items: center;
-    margin: 2vw 0
+    margin-top: 1.3vw ;
 }
 
 .routers {
-    font-size: 1.9vw;
+    font-size: 1.1vw;
     font-weight: 500;
     margin-right: 2.2vw
+}
+.router1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+     align-items: center;
+    margin-right: 2.2vw;
+    padding: 0 1vw; 
+       padding-top: 1vw;
+     border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    box-shadow: 0 -4px 4px -5px #333;
+  
+}
+.router1 a{
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+.router1 span{
+    margin-top: .8vw;
 }
 
 .routers:hover {
@@ -43,43 +64,48 @@
     display: flex;
     align-items: center;
     border: 1px solid black;
-    border-radius: 10px
+    border-radius: 10px;
+     border-radius: 1vw;
 }
 
 .seletct_option {
     display: flex;
     align-items: center;
-    padding: 1vw .75vw;
-    background-color: #bfbfbb
+    padding: .5vw .75vw;
+    background-color: #f4f4ee;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+
+
 }
 
 .verious_options {
     border: none;
     outline: none;
-    background-color: #bfbfbb;
-    font-size: 1.5vw;
+    background-color: #f4f4ee;
+    font-size: 1vw;
     font-weight: 500;
     margin-left: .5vw
 }
 
 .horidental_line {
     width: 1px;
-    height: 4vw;
-    background-color: black
+    height: 2vw;
+    background-color: black;
+
 }
 
 .search_input {
-    font-size: 1.5vw;
-    padding-left: 2vw;
-    border: none;
-    padding: 1vw .75vw;
+    width: 100%;
+    font-size: 1vw;
+     border: none;
+    padding: .5vw .75vw;
     outline: none;
-    width: 100%
-}
+ }
 
 .Main_grid {
     display: grid;
-    grid-template-columns: 49% 49%;
+    grid-template-columns: 37% 52%;
     gap: 10px;
     margin-top: 2vw
 }

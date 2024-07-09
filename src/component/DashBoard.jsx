@@ -12,14 +12,16 @@ import { GrAnnounce } from "react-icons/gr";
 import { TbPackageExport } from "react-icons/tb";
 import { MdPeopleOutline } from "react-icons/md";
 import SlideDiv from './SlideDiv';
+import { MdOutlineSettings } from "react-icons/md";
+import { VscStopCircle } from "react-icons/vsc";
 
 import style from './DashBoard.module.css'
 
 
 function DashBoard() {
   return (
-    <>
-      {/* nav of dashbord */}
+<>
+  {/* nav of dashbord */}
       <div className={`${style.dash_heading}`} >
         <div className={`${style.logo}`}  >
           <div className={`${style.logo}`}  >
@@ -30,7 +32,7 @@ function DashBoard() {
 
         </div>
         <div>
-          <MdOutlineSpaceDashboard style={{ width: '29px', height: '36px' }} />
+          <MdOutlineSpaceDashboard style={{ width: '19px', height: '27px' }} />
 
         </div>
       </div>
@@ -47,12 +49,12 @@ function DashBoard() {
             <div className={`${style.auth_name}`} >
               <a className={`${style.auth_name1}`} >Hidaytama Irsada</a>
               <div className={`${style.logo}`}  >
-                <MdInbox style={{ width: '1.5vw', height: '1.4vw' }} />
-                <a style={{ fontSize: '1.4vw', fontWeight: '500', }}>Tokomedia</a>
+                <MdInbox style={{ width: '1.2vw', height: '1.1vw' }} />
+                <a style={{ fontSize: '1.2vw', fontWeight: '500', }}>Tokomedia</a>
               </div>
             </div>
           </div>
-          <RiExpandUpDownLine style={{ width: '29px', height: '36px' }} />
+          <RiExpandUpDownLine style={{ width: '24px', height: '31px' }} />
         </div>
       </div>
       {/* 2nd line */}
@@ -63,8 +65,7 @@ function DashBoard() {
         <SlideOption name='Overview' icons={MdOutlineSpaceDashboard} />
         <SlideOption icons={IoCardOutline} name='My cards' />
         <SlideOption name=' Transfer' icons={FaArrowRightArrowLeft} />
-        <SlideOption name='Transactions' icons={FaArrowRightArrowLeft} />
-        <SlideDiv name='Payments' icons={FaHandHoldingUsd} number={12} />
+         <SlideDiv name='Payments' icons={FaHandHoldingUsd} number={12} />
         <SlideOption name='Exchange' icons={RiExchangeDollarLine} />
 
         <a className={`${style.division2}`}  >Industry</a>
@@ -81,6 +82,29 @@ function DashBoard() {
         <SlideOption name=' Foreign exchange' icons={RiExchangeDollarLine} />
         <SlideOption name='Multi currency account' icons={MdPeopleOutline} />
 
+<div style={{position:'absolute',bottom:'0px'}}>
+<SlideOption name='Settings' icons={MdOutlineSettings} />
+<SlideOption name='Help center' icons={VscStopCircle} />
+<div style={{padding:'.7vw',backgroundColor:'black',borderRadius:'.5vw',marginTop:'4px',marginBottom:'1vw',width:'84%'}}>
+<div style={{display:'flex'}}>
+<div style={{alignSelf:'self-start'}}>
+  <div className={`${style.logo}`}> 
+<div className={`${style.logo3}`}  ></div>
+<div className={`${style.logo4}`}  ></div></div>
+</div>
+<div style={{display:'flex',alignItems:'start',flexDirection:'column',paddingLeft:'.5vw'}}>
+<a  className={`${style.auth_name2}`} style={{color:'white'}}>Get full access</a>
+<a style={{fontSize:'.8vw',color:'white',width:'84%'}}>Experience Full Financial
+Insights
+</a>
+<div style={{display:'flex',alignItems:'center'}}>
+<a style={{fontSize:'.8vw',color:'white',paddingTop:'.5vw'}}>Request here ›</a>
+</div>
+</div>
+
+</div>
+</div>
+</div>
       </div>
 
     </>

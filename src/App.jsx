@@ -5,6 +5,7 @@ import MainPage from './component/MainPage';
 
 function App() {
    return (
+      <div style={{width:'100%'}}> 
       <div className='grid-container'>
          <div className='dashBoard'  >
             <DashBoard />
@@ -15,7 +16,7 @@ function App() {
 
          </div>
       </div>
-
+      </div>
 
 
    )

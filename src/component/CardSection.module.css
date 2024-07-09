@@ -1,13 +1,13 @@
 .card_body {
-    width: 90%;
-    padding: 1.5vw;
+    width: 100%;
+    padding: 1.3vw;
     display: flex;
     flex-direction: column;
     background-color: #d6d6d4;
     border-radius: 1vw;
     margin: .1px;
-    height: 39.5vw;
-    ;
+    height: 27vw;
+    
 }
 
 .card_head {
@@ -22,29 +22,29 @@
 }
 
 .my_card {
-    font-size: 1.9vw;
+    font-size: 1.2vw;
     font-weight: 600;
-    margin-left: 1vw
+    margin-left: .7vw
 }
 
 .my_card_button {
     display: flex;
     align-items: center;
     border: .5px solid black;
-    padding: .4vw 1vw;
+    padding: 3px .5vw;
     border-radius: 10px
 }
 
 .add_card {
-    font-size: 1.9vw;
+    font-size: 1.2vw;
     font-weight: 500;
     margin-left: .5vw
 }
 
 .card {
-    margin-top: 1.5vw;
+    margin-top: 1vw;
     width: 92%;
-    padding: 1.5vw;
+    padding: 1.3vw;
     display: flex;
     flex-direction: column;
     background-image: url('https://www.carecredit.com/sites/cc/image/mastercard-hero-bg-dsk.svg');
@@ -53,19 +53,19 @@
 }
 
 .kley {
-    font-size: 2.1vw;
+    font-size: 1.4vw;
     font-weight: 700;
 }
 
 .Edit {
     display: flex;
     align-items: center;
-    margin: 3.3vw 0
+    margin: 1.7vw 0
 }
 
 .card_no {
-    font-size: 2.1vw;
-    font-weight: 600;
+    font-size: 1.4vw;
+    font-weight: 500;
     padding-right: 1vw
 }
 
@@ -83,7 +83,7 @@
 .cvv {
     display: flex;
     align-items: center;
-    margin-top: 1vw
+    margin-top: 3px
 }
 
 .exp {
@@ -94,40 +94,40 @@
 .card_cvc {
     display: flex;
     align-items: center;
-    padding-left: 2vw
+    padding-left: 1.7vw
 }
 
 .card_cvc_no {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     padding-left: .5vw
 }
 
 .card_logo1 {
-    width: 4.4vw;
-    height: 4.4vw;
+    width: 2.2vw;
+    height: 2.2vw;
     border-radius: 50%;
     background-color: red
 }
 
 .card_logo2 {
-    width: 4.4vw;
-    height: 4.4vw;
+    width: 2.2vw;
+    height: 2.2vw;
     border-radius: 50%;
     background-color: blue;
-    margin-left: -1.5vw;
+    margin-left: -.7vw;
     opacity: 0.5
 }
 
 .belling {
-    margin-top: 2vw;
+    margin-top: 1.3vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .belling_logo {
-    font-size: 1.8vw;
-    height: 1.6vw;
+    font-size: 1.2vw;
+    height: 1.4vw;
     align-items: flex-start;
     align-self: self-start
 }
@@ -140,28 +140,32 @@
 }
 
 .belling_edit {
+    font-size: 1.2vw;
     display: flex;
     align-items: center;
     border: .5px solid black;
-    padding: .4vw 1vw;
+    padding: .4vw .8vw;
     border-radius: 10px
 }
 
 .belling_edit_button {
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-weight: 600;
     margin-left: .5vw
 }
 
 .progress {
-    margin-top: 2vw;
+    margin-top: 1.2vw;
     display: flex;
     flex-direction: column;
     background-color: white;
+    border-radius: .7vw;
+    
 }
 
 .progress_header {
     border: 1px solid black;
+    border-radius: 1vw;
     border-radius: 10px;
     width: 100%;
     padding-top: .5vw;
@@ -186,7 +190,7 @@
     display: flex;
     align-items: center;
     width: 45%;
-    padding: .75vw
+    padding: 2px .7vw;
 }
 
 .frist_progress_div {
@@ -211,11 +215,11 @@
 }
 
 .transactions {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     font-weight: 300
 }
 
 .rs {
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-weight: 600
 }
