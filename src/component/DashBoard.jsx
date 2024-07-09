@@ -85,7 +85,7 @@ function DashBoard() {
 <div style={{position:'fixed',bottom:'1px'}}>
 <SlideOption name='Settings' icons={MdOutlineSettings} />
 <SlideOption name='Help center' icons={VscStopCircle} />
-<div style={{padding:'.5vw',backgroundColor:'black',borderRadius:'.5vw',marginTop:'4px',marginBottom:'1.5vw',width:'84%'}}>
+<div style={{padding:'.5vw',backgroundColor:'black',borderRadius:'.5vw',marginTop:'4px',marginBottom:'.5vw',width:'84%'}}>
 <div style={{display:'flex'}}>
 <div style={{alignSelf:'self-start'}}>
   <div className={`${style.logo}`}> 
