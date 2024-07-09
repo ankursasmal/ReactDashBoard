@@ -10,8 +10,8 @@
 }
 
 .logo1 {
-     width: 2vw;
-     height: 2vw;
+     width: 2.1vw;
+     height: 2.1vw;
      border-radius: 50%;
      background-color: blue
 }
@@ -54,9 +54,9 @@
 }
 
 .img_auth {
-     width: 3.3vw;
+     width: 2.5vw;
      border-radius: 50%;
-     height: 3vw
+     height: 2.5vw
 }
 
 .auth_name {
@@ -67,12 +67,12 @@
 }
 
 .auth_name1 {
-     font-size: 1.2vw;
+     font-size: 1vw;
      font-weight: 600;
      line-clamp: 1
 }
 .auth_name2 {
-     font-size: 1.2vw;
+     font-size: 1.1vw;
      font-weight: 500;
      line-clamp: 1
 }

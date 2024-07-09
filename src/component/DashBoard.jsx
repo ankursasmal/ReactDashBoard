@@ -54,7 +54,7 @@ function DashBoard() {
               </div>
             </div>
           </div>
-          <RiExpandUpDownLine style={{ width: '24px', height: '31px' }} />
+          <RiExpandUpDownLine style={{ width: '1vw', height: '1.2vw' }} />
         </div>
       </div>
       {/* 2nd line */}
@@ -82,10 +82,10 @@ function DashBoard() {
         <SlideOption name=' Foreign exchange' icons={RiExchangeDollarLine} />
         <SlideOption name='Multi currency account' icons={MdPeopleOutline} />
 
-<div style={{position:'absolute',bottom:'0px'}}>
+<div style={{position:'fixed',bottom:'1px'}}>
 <SlideOption name='Settings' icons={MdOutlineSettings} />
 <SlideOption name='Help center' icons={VscStopCircle} />
-<div style={{padding:'.7vw',backgroundColor:'black',borderRadius:'.5vw',marginTop:'4px',marginBottom:'-1vw',width:'84%'}}>
+<div style={{padding:'.5vw',backgroundColor:'black',borderRadius:'.5vw',marginTop:'4px',marginBottom:'1vw',width:'84%'}}>
 <div style={{display:'flex'}}>
 <div style={{alignSelf:'self-start'}}>
   <div className={`${style.logo}`}> 
@@ -94,7 +94,7 @@ function DashBoard() {
 </div>
 <div style={{display:'flex',alignItems:'start',flexDirection:'column',paddingLeft:'.5vw'}}>
 <a  className={`${style.auth_name2}`} style={{color:'white'}}>Get full access</a>
-<a style={{fontSize:'.8vw',color:'white',width:'84%'}}>Experience Full Financial
+<a style={{fontSize:'.7vw',color:'white',width:'84%'}}>Experience Full Financial
 Insights
 </a>
 <div style={{display:'flex',alignItems:'center'}}>
