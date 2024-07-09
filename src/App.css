@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.grid-container{
+  display:grid;
+grid-template-columns:22% 76%;
+gap:10px;
+
+}
+.ber{
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(244, 245, 247) 25%, rgb(91, 119, 185) 0);    
+}
+.ber1{
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(rgb(246, 240, 242) 45%, rgb(212, 143, 155) 0); 
+}
+
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1.5vw;
+  width: 1.5vw;
+  transition: all 0.15s ease-out 0s;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+ 
+
+/* table code */
+#table1 {
+  margin-top: 1vw;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  border-radius: 1vw !important;
+}
+#table1 th{
+  background-color: #cbd1d8;
+}
+
+#table1 td, #table1 th {
+   padding: 8px;
+}
+
+#table1 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table1 tr:hover {
+  background-color: #ddd;
+}
+
+#table1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+   color: black;
+}
+.table_row{
+  font-size:  1.3vw   
+}
+.dashBoard{
+   height: 100vw ;width: 100% ;padding: 20px ;margin-right: 2vw 
+}
+.Mainpagecss{
+   height:100vw;width:100%;padding:20px;margin-left:30px
+}

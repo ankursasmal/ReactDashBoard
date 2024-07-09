@@ -1,0 +1,18 @@
+.dashBord{
+     display: flex  ;align-items: center  ;justify-content: space-between  
+}
+.dashBord_laout{
+     display: flex  ;align-items: center  ;margin: 10px 0  
+}
+.dashBord_names{
+     font-size: 1.4vw  ;font-weight: 400  ;margin-left: 10px  
+}
+
+.NumberDiv{
+     display: flex  ;align-items: center  ;justify-content: center  ;padding: .4vw .7vw  ;background-color: #b3bab8  ;border-radius: 10px  
+}
+.dashBordNo{
+     font-size: 1.3vw  ;font-weight: 400  ; 
+}
+
+

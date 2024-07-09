@@ -1,0 +1,106 @@
+
+.card_body{
+    width:90%;padding:1.5vw;display:flex;flex-direction:column;background-color: #d6d6d4;border-radius: 1vw;margin: .1px;height: 39.5vw;;
+}
+
+.card_head{
+    display:flex;align-items:center;justify-content:space-between
+}
+.card_button{display:flex;align-items:center;
+}
+.my_card{font-size:1.9vw;font-weight:600;margin-left:1vw}
+
+ .my_card_button{display:flex;align-items:center;border:.5px solid black;padding:.4vw 1vw;border-radius:10px}
+
+.add_card{
+     font-size:1.9vw;font-weight:500;margin-left:.5vw
+}
+.card{
+     margin-top:1.5vw;width:92%;padding:1.5vw;display:flex;flex-direction:column;background-image:url('https://www.carecredit.com/sites/cc/image/mastercard-hero-bg-dsk.svg');
+     border-radius: 1vw;
+
+}
+.kley{
+    font-size:2.1vw;font-weight:700;
+}
+.Edit{
+    display:flex;align-items:center;margin:3.3vw 0
+}
+.card_no{
+    font-size:2.1vw;font-weight:600;padding-right:1vw
+}
+.cardname{
+    display:flex;align-items:center;justify-content:space-between
+}
+.card_namecol{
+    display:flex;flex-direction:column;
+}
+.cvv{
+    display:flex;align-items:center;margin-top:1vw
+}
+.exp{
+    display:flex;align-items:center
+}
+
+ .card_cvc{display:flex;align-items:center;padding-left:2vw
+ }
+
+ .card_cvc_no{
+    font-size:1.3vw;padding-left:.5vw
+ }
+ .card_logo1{
+    width:4.4vw;height:4.4vw;border-radius:50%;background-color:red
+ }
+ .card_logo2{
+    width:4.4vw;height:4.4vw;border-radius:50%;background-color:blue;margin-left:-1.5vw;  opacity: 0.5
+ }
+
+.belling{
+    margin-top:2vw;display:flex;align-items:center;justify-content:space-between;
+}
+.belling_logo{
+     font-size:1.8vw;height:1.6vw;align-items:flex-start;align-self:self-start 
+}
+.belling_add{
+    display:flex;flex-direction:column;align-items:start;padding-left:.5vw
+}
+.belling_edit{
+    display:flex;align-items:center;border:.5px solid black;padding:.4vw 1vw;border-radius:10px
+}
+.belling_edit_button{
+    font-size:1.5vw;font-weight:600;margin-left:.5vw
+}
+.progress{
+    margin-top:2vw;display:flex; flex-direction:column;background-color: white;
+}
+.progress_header{
+    border:1px solid black;border-radius:10px;width:100%;padding-top:.5vw;text-align:center;align-self:center
+}
+.horizental_line{
+    width:100%;height:1px;background-color:black;margin-top:.5vw
+}
+.circle1{
+    display:flex;align-items:center;justify-content:space-between
+}
+.frist_progress{
+    display:flex;align-items:center;width:45%;padding:.75vw
+}
+.frist_progress_div{
+    display:flex;align-items:start;flex-direction:column;padding-left:.7vw
+}
+.circle2{
+    display:flex;align-items:center;width:45%;padding:.75vw
+}
+.second_progress{
+    display:flex;align-items:start;flex-direction:column;padding-left:.7vw
+}
+
+.transactions{
+    font-size:1.3vw;font-weight:300
+}
+.rs{
+    font-size:1.5vw;font-weight:600
+}
+
+
+

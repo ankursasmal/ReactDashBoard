@@ -1,0 +1,48 @@
+.dash_heading{
+     display: flex  ;align-items: center  ;justify-content: space-between ;
+ }
+.logo{
+     display: flex  ; align-items: center  
+}
+.logo1{
+     width: 3vw  ;height: 3vw  ;border-radius: 50%  ;background-color: blue  
+}
+.logo2{
+     width: 3vw  ;height: 3vw  ;border-radius: 50%  ;background-color: white  ;border: 2px solid blue  ;margin-left: -1.5vw  ;  opacity:  0.5  
+}
+.kley{
+     font-weight: 600  ; font-size: 2.3vw  ;margin-left: 2vw  
+}
+.horizental_div{
+     width: 100%  ;height: 1px  ;background-color: grey  ;margin-top: 1.5vw  
+}
+.admin_section{
+     display: flex  ; align-items: center  ;justify-content: space-between  
+}
+.auth_detail{
+     display: flex  ; align-items: center  ;justify-content: space-between  ;width: 100%  ;margin: 1.2vw 0  
+}
+.img_auth{
+     width: 3.3vw  ;border-radius: 50%  ;height: 3.3vw  
+}
+.auth_name{
+     display: flex  ;flex-direction: column  ; align-items: start  ;margin-left: 10px  
+}
+.auth_name1{
+      font-size: 1.5vw  ; font-weight: 600  ;line-clamp: 1  
+}
+.horizental_line2{
+ width: 100%  ;height: 1px  ;background-color: grey  ;margin-bottom: 1.5vw   ; 
+}
+.dash_option{
+     display: flex  ;flex-direction: column  
+}
+.division1{
+      font-size: 1.4vw  ;font-weight: 500  ;margin: .5vw 0  
+}
+.division2{
+  font-size: 1.4vw  ;font-weight: 500  ;margin: 1vw 0  
+}
+.division3{
+      font-size: 1.4vw  ;font-weight: 500  ;margin: 1vw 0  
+}

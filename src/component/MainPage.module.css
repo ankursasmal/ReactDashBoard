@@ -1,0 +1,84 @@
+.MainPgae {
+    display: flex;
+    flex-direction: column
+}
+
+.mainHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 1.3vw
+}
+
+.Transactions {
+
+    font-size: 2.2vw;
+    font-weight: 700
+}
+
+.review {
+    font-size: 1.8vw;
+    font-weight: 500;
+    margin-top: .7vw
+}
+
+.route_option {
+    display: flex;
+    align-items: center;
+    margin: 2vw 0
+}
+
+.routers {
+    font-size: 1.9vw;
+    font-weight: 500;
+    margin-right: 2.2vw
+}
+.routers:hover{
+    font-weight: 600;
+
+}
+
+.MainPage_input {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+.seletct_option {
+    display: flex;
+    align-items: center;
+    padding: 1vw .75vw;
+    background-color: #bfbfbb
+}
+
+.verious_options {
+    border: none;
+    outline: none;
+    background-color: #bfbfbb;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-left: .5vw
+}
+
+.horidental_line {
+    width: 1px;
+    height: 4vw;
+    background-color: black
+}
+
+.search_input {
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    border: none;
+    padding: 1vw .75vw;
+    outline: none;
+    width: 100%
+}
+
+.Main_grid {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 10px;
+    margin-top: 2vw
+}
