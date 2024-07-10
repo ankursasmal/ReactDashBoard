@@ -11,7 +11,7 @@ import { FiSearch } from "react-icons/fi";
 function MainPage() {
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <div style={{ position:'absolute',top:'0',left:'16vw',width:'82%' }}>
       <div className={`${style.MainPgae}`}  >
         {/* nav part */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>

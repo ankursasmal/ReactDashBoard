@@ -1,9 +1,4 @@
-.MainPgae {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-}
-
+ 
 .mainHeading {
     display: flex;
     flex-direction: column;

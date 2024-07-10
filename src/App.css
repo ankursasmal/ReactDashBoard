@@ -4,10 +4,9 @@
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: calc(16% - 5px) calc(83% - 5px);
-  gap: 10px;
-}
+  display: flex;
+align-items: center;
+justify-content: space-between;}
 
 .ber {
   width: 2.4vw;
@@ -94,13 +93,12 @@
 }
 
 .dashBoard {
-  height: 100vh;
-  width: 100%;
+ 
   padding: 20px;
   margin-right: 2vw;
   min-height: 100vh;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -109,4 +107,5 @@
   height: 100vw;
   width: 100%;
   padding: 20px;
+   
  }
