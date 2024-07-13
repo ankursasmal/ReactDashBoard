@@ -16,17 +16,17 @@ function TableSection() {
             <div style={{ display: 'flex', alignItems: 'center',justifyContent:'space-between' }}>
 
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        <FaRegClock style={{ fontSize: '1.2vw', height: '1.3vw' }} />
+        <FaRegClock style={{ fontSize: '1.3rem', height: '1.3vw' }} />
         <a className={`${style.transition_heading}`}  >Transaction History</a>
       </div>
       <div style={{ display: 'flex', alignItems: 'center' }}>
       <div style={{ display: 'flex', alignItems: 'center',border:'1px solid black',padding:'2px 4px' ,borderRadius:'.5vw'}}>
-        <LuListFilter style={{width:'1vw',height:'1.1vw'}}/>
-  <a style={{fontSize:'1vw'}}>Add Filter</a>
+        <LuListFilter style={{width:'1.2rem',height:'1.3rem'}}/>
+  <a style={{fontSize:'1.2rem'}}>Add Filter</a>
 </div>
 <div style={{ display: 'flex', alignItems: 'center',border:'1px solid black',padding:'2px 4px' ,borderRadius:'.5vw',marginLeft:'1.2vw'}}>
-        <IoReorderThreeOutline style={{width:'1vw',height:'1.1vw'}}/>
-  <a style={{fontSize:'1vw'}}>Group By</a>
+        <IoReorderThreeOutline style={{width:'1.3vw',height:'1.1vw'}}/>
+  <a style={{fontSize:'1.2rem'}}>Group By</a>
 </div>
 </div>
 

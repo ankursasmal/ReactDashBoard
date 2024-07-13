@@ -1,13 +1,11 @@
 .card_body {
     width: 100%;
-    padding: 1.3vw;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     background-color: #e6e6e7;
-    border-radius: 1vw;
-    margin: .1px;
-    height: 27vw;
-    
+    border-radius: 1.2rem;
+      
 }
 
 .card_head {
@@ -22,9 +20,9 @@
 }
 
 .my_card {
-    font-size: 1.2vw;
+    font-size: 1.4rem;
     font-weight: 600;
-    margin-left: .7vw
+    margin-left: .8rem
 }
 
 .my_card_button {
@@ -36,41 +34,41 @@
 }
 
 .add_card {
-    font-size: 1.2vw;
+    font-size: 1.4rem;
     font-weight: 500;
     margin-left: .5vw
 }
 
 .card {
-    margin-top: 1vw;
+    margin-top: 1.2rem;
     width: 92%;
-    padding: 1.3vw;
+    padding: 1.2rem;
     display: flex;
     flex-direction: column;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR_a9UKOATg-w5gaLwT36Hipifx0J8tC_9Mw&s');
-    border-radius: 1vw;
+    border-radius: 1.2rem;
 
 }
 
 .kley {
     color: white;
 
-    font-size: 1.4vw;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 
 .Edit {
     display: flex;
     align-items: center;
-    margin: 1.7vw 0
+    margin: 3.8rem 0
 }
 
 .card_no {
     color: white;
 
-    font-size: 1.4vw;
+    font-size: 1.6rem ;
     font-weight: 500;
-    padding-right: 1vw
+    padding-right: 1.2rem
 }
 
 .cardname {
@@ -107,13 +105,13 @@
 
     display: flex;
     align-items: center;
-    padding-left: 1.7vw
+    padding-left: 1.9rem
 }
 
 .card_cvc_no {
     color: white;
 
-    font-size: 1.1vw;
+    font-size: 1.3rem;
     padding-left: .5vw
 }
 
@@ -141,7 +139,7 @@
 }
 
 .belling_logo {
-    font-size: 1.2vw;
+    font-size: 1.4rem;
     height: 1.4vw;
     align-items: flex-start;
     align-self: self-start
@@ -151,11 +149,11 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding-left: .5vw
+    padding-left: .6rem
 }
 
 .belling_edit {
-    font-size: 1.2vw;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
     border: .5px solid black;
@@ -164,13 +162,13 @@
 }
 
 .belling_edit_button {
-    font-size: 1vw;
+    font-size: 1.2rem;
     font-weight: 600;
     margin-left: .5vw
 }
 
 .progress {
-    margin-top: 1.2vw;
+    margin-top: 1.4rem;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -180,7 +178,7 @@
 
 .progress_header {
     border: .1px solid rgb(176, 173, 173);
-    border-radius: 1vw;
+    border-radius: 1.2rem;
     border-radius: 10px;
     width: 100%;
     padding-top: .5vw;
@@ -205,32 +203,32 @@
     display: flex;
     align-items: center;
     width: 45%;
-    padding: 2px .7vw;
+    padding: 2px .83rem;
 }
 
 .frist_progress_div {
     display: flex;
     align-items: start;
     flex-direction: column;
-    padding-left: .7vw
+    padding-left: .84rem
 }
 
 .circle2 {
     display: flex;
     align-items: center;
     width: 45%;
-    padding: .75vw
+    padding: .9rem
 }
 
 .second_progress {
     display: flex;
     align-items: start;
     flex-direction: column;
-    padding-left: .7vw
+    padding-left: .85rem
 }
 
 .transactions {
-    font-size: 1.1vw;
+    font-size: .9vw;
     font-weight: 300
 }
 

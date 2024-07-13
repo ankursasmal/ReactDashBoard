@@ -16,7 +16,7 @@ function TableSuccess() {
                 <td className="table_row">Money Transfer</td>
                 <td className="table_row">Rp123</td>
 
-                <td className="table_row" > <div style={{display:'flex',alignItems:'center' }}><img src='https://cdn.icon-icons.com/icons2/1506/PNG/512/emblemdefault_103756.png' style={{with:'.8vw',height:'1vw'}} /><a style={{width:'1vw',marginLeft:'2px'}}>Complete</a></div> </td>
+                <td className="table_row" > <div style={{display:'flex',alignItems:'center' }}><img src='https://cdn.icon-icons.com/icons2/1506/PNG/512/emblemdefault_103756.png' style={{with:'.9rem',height:'1.2rem'}} /><a style={{width:'1.2rem',marginLeft:'2px'}}>Complete</a></div> </td>
 
             </tr>
         </>

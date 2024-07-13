@@ -22,11 +22,11 @@ function MainPage() {
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <div style={{ display: 'flex', alignItems: 'center', border: '1px solid black', padding: '3px 6px', borderRadius: '.5vw' }}>
               <LuSend style={{ width: '1vw', height: '.8vw' }} />
-              <a style={{ fontSize: '1vw', fontWeight: '600', marginLeft: '.4vw' }}>Request Money</a>
+              <a style={{ fontSize: '1.3rem', fontWeight: '600', marginLeft: '.5rem' }}>Request Money</a>
             </div>
-            <div style={{ display: 'flex', alignItems: 'center', border: '1px solid black', padding: '3px 8px', borderRadius: '.5vw', marginLeft: '1.2vw', backgroundColor: 'black' }}>
+            <div style={{ display: 'flex', alignItems: 'center', border: '1px solid black', padding: '3px 8px', borderRadius: '.5vw', marginLeft: '1.3rem', backgroundColor: 'black' }}>
               <IoIosAddCircleOutline style={{ width: '1vw', height: '.8vw', color: 'white' }} />
-              <a style={{ fontSize: '1vw', fontWeight: '500', marginLeft: '.4vw', color: 'white' }}>Add Funds</a>
+              <a style={{ fontSize: '1.2rem', fontWeight: '500', marginLeft: '.5rem', color: 'white' }}>Add Funds</a>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ function MainPage() {
 
 
         <div style={{
-          padding: '2vw', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 12px', zIndex: '-1'
+          padding: '2vw', boxShadow: 'rgba(0, 0, 0, 0.1) 0px 4px 12px',  
 
         }}>
           {/* input */}
@@ -59,8 +59,9 @@ function MainPage() {
             </div>
             <div className={`${style.horidental_line}`}  ></div>
             <input className={`${style.search_input}`} type="text" placeholder='Search' />
-            <FiSearch style={{ width: '1.8vw', height: '1.8vw', marginRight: '2vw' }} />
+            <FiSearch style={{ width: '1.8vw', height: '1.8vw', marginRight: '2.4rem' }} />
           </div>
+ 
 
 
           {/* // card and transition grid */}

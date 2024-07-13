@@ -11,7 +11,7 @@
 }
 
 .dashBord_names {
-     font-size: 1vw;
+     font-size: 1.2rem;
      font-weight: 400;
      margin-left: 10px
 }
@@ -26,6 +26,6 @@
 }
 
 .dashBordNo {
-     font-size: 1vw;
+     font-size: 1.2rem;
      font-weight: 400;
 }

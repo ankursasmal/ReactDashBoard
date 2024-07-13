@@ -1,13 +1,13 @@
 .transition {
-      width: 90%;
-      margin-left: 5vw;
-      margin-top: 1.5vw
+      width: 93%;
+      margin-left: 7%;
+      margin-top: 1.8rem
 }
 
 .transition_heading {
-      font-size: 1.4vw;
+      font-size: 1.7rem;
       font-weight: 600;
-      padding-left: .5vw
+      padding-left: .6rem
 }
 
 .table_headDiv {
@@ -17,7 +17,7 @@
 }
 
 .table_head_name {
-      font-size: 1vw;
+      font-size: 1.4rem;
       font-weight: 600
 }
 

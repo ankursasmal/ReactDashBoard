@@ -50,7 +50,7 @@ function DashBoard() {
               <a className={`${style.auth_name1}`} >Hidaytama Irsada</a>
               <div className={`${style.logo}`}  >
                 <MdInbox style={{ width: '1.2vw', height: '1.1vw' }} />
-                <a style={{ fontSize: '1.2vw', fontWeight: '500', }}>Tokomedia</a>
+                <a style={{ fontSize: '1.4rem', fontWeight: '500', }}>Tokomedia</a>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ function DashBoard() {
         <SlideOption name=' Foreign exchange' icons={RiExchangeDollarLine} />
         <SlideOption name='Multi currency account' icons={MdPeopleOutline} />
 
-<div style={{position:'absolute',bottom:'2.1vw'}}>
+<div style={{position:'absolute',bottom:'2.5rem'}}>
 <SlideOption name='Settings' icons={MdOutlineSettings} />
 <SlideOption name='Help center' icons={VscStopCircle} />
 <div style={{padding:'.5vw',backgroundColor:'black',borderRadius:'.5vw',marginTop:'4px',marginBottom:'1vw',width:'84%'}}>
@@ -94,11 +94,11 @@ function DashBoard() {
 </div>
 <div style={{display:'flex',alignItems:'start',flexDirection:'column',paddingLeft:'.5vw'}}>
 <a  className={`${style.auth_name2}`} style={{color:'white'}}>Get full access</a>
-<a style={{fontSize:'.7vw',color:'white',width:'84%'}}>Experience Full Financial
+<a style={{fontSize:'.84rem',color:'white',width:'84%'}}>Experience Full Financial
 Insights
 </a>
 <div style={{display:'flex',alignItems:'center'}}>
-<a style={{fontSize:'.8vw',color:'white',paddingTop:'.5vw'}}>Request here ›</a>
+<a style={{fontSize:'.9rem',color:'white',paddingTop:'.5vw'}}>Request here ›</a>
 </div>
 </div>
 

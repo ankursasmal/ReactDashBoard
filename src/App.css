@@ -3,10 +3,16 @@
   padding: 0px;
 }
 
+@media (max-width:2000px) {
+  .maxwidthdiv{
+    width: 100%;
+  }
+}
+
 .grid-container {
-  display: flex;
-align-items: center;
-justify-content: space-between;}
+  display: grid;
+grid-template-columns:14% 86%;
+  }
 
 .ber {
   width: 2.4vw;
@@ -54,7 +60,7 @@ justify-content: space-between;}
 
 /* table code */
 #table1 {
-  margin-top: 1vw;
+  margin-top: 1.2rem;
   width: 100%;
   border-collapse: collapse;
   border: .1px solid rgb(146, 144, 144);
@@ -89,23 +95,23 @@ justify-content: space-between;}
 }
 
 .table_row {
-  font-size: .9vw;
+  font-size: 1.1rem;
 }
 
 .dashBoard {
- 
+ width: 11%;
   padding: 20px;
-  margin-right: 2vw;
-  min-height: 100vh;
+   min-height: 100vh;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   position: fixed;
   top: 0;
-  left: 0;
+   left: 0;
 }
 
 .Mainpagecss {
+ 
   height: 100vw;
-  width: 100%;
+  width: 89%;
   padding: 20px;
-   
+     
  }
