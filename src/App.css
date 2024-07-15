@@ -10,8 +10,8 @@
 }
 
 .grid-container {
-  position:relative;
-  display: flex;
+   display: grid;
+   grid-template-columns: 14% 86%;
    }
 
 .ber {
@@ -99,20 +99,21 @@
 }
 
 .dashBoard {
+  width: 11%;
+  min-height: 100vh;
    padding: 20px;
-   height: 99vh;
-   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  position: sticky;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: fixed;
+  left: 0;
   top: 0;
-  width: 230px;
-
+ 
   
  }
 
 .Mainpagecss {
  
   height: 100vw;
-  width:100%;
+  width:89%;
   padding: 20px;
      
  }
