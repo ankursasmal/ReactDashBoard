@@ -5,7 +5,7 @@ import MainPage from './component/MainPage';
 
 function App() {
    return (
-      <div style={{width:'100%'}} className='maxwidthdiv'> 
+      <div style={{width:'100%',}} className='maxwidthdiv'> 
       <div className='grid-container'>
          <div className='dashBoard'  >
             <DashBoard />

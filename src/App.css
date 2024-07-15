@@ -10,9 +10,9 @@
 }
 
 .grid-container {
-  display: grid;
-grid-template-columns:14% 86%;
-  }
+  position:relative;
+  display: flex;
+   }
 
 .ber {
   width: 2.4vw;
@@ -99,19 +99,20 @@ grid-template-columns:14% 86%;
 }
 
 .dashBoard {
- width: 11%;
-  padding: 20px;
-   min-height: 100vh;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  position: fixed;
+   padding: 20px;
+   height: 99vh;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  position: sticky;
   top: 0;
-   left: 0;
-}
+  width: 230px;
+
+  
+ }
 
 .Mainpagecss {
  
   height: 100vw;
-  width: 89%;
+  width:100%;
   padding: 20px;
      
  }
